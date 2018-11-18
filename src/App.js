@@ -7,6 +7,8 @@ import Wrapper from "./components/Wrapper";
 import Img from "./components/Img.json";
 // import Grid from "./components/Grid";
 
+//NOT EVEN RENDERING THE APP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 import puppy1 from "./images/puppy1.jpg";
 import puppy2 from "./images/puppy2.jpg";
 import puppy3 from "./images/puppy3.jpg";
@@ -22,8 +24,6 @@ import puppy12 from "./images/puppy12.jpg";
 import puppy13 from "./images/puppy13.jpg";
 import puppy14 from "./images/puppy14.jpg";
 import puppy15 from "./images/puppy15.jpg"
-
-//SRC ISN'T CHANGING!!!!!!!!!!!!!!!!!!!!!!!!!!!! (but key and filename are)
 
 class App extends Component {
 // Setting initial state values
