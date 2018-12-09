@@ -5,9 +5,7 @@ import Jumbotron from "./components/Jumbotron";
 import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
 import Img from "./components/Img.json";
-// import Grid from "./components/Grid";
-
-//NOT EVEN RENDERING THE APP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+import './index.css';
 
 import puppy1 from "./images/puppy1.jpg";
 import puppy2 from "./images/puppy2.jpg";
@@ -45,7 +43,7 @@ class App extends Component {
     };
 
     pickImg = (filename) => {
-        let picked = this.state.picked; //array of photos that have been picked so far - OK
+        let picked = this.state.picked
         
         if (picked.indexOf(filename) === -1) { //if filename passed in hasn't been picked...
             this.setState({
@@ -107,6 +105,7 @@ class App extends Component {
   // Map over this.state.images and render an image component for each image object
     render() {
         return (
+        <div>
         <Wrapper>
             <Navbar correct={this.state.correct} topScore={this.state.topScore} message={this.state.message}
         />
@@ -115,6 +114,7 @@ class App extends Component {
             <ImageCard src={this.imgSwitch(image.filename)} source={image.source} filename={image.filename} key={image.id} pickImg={this.pickImg}  />
           ))}
         </Wrapper>
+        </div>
         );
     };
 
