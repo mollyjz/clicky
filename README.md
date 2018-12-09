@@ -16,7 +16,7 @@ git clone git@github.com:mollyjz/clicky.git
 yarn install
 ```
 
-#### Ready to play on your local machine? Try:
+* #### Ready to play on your local machine? Try:
 ```
 yarn start
 ```
