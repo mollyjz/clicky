@@ -1,5 +1,5 @@
 {
-  "name": "clicky-game",
+  "name": "clicky",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://mollyjz.github.io/clicky",
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:prod": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
