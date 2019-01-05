@@ -1,6 +1,6 @@
 # Clicky Game
 
-### Simple but addictive (and serverless) memory game built using React.
+### Simple but addictive (and serverless) memory game built using React. The player must click each photo only once per round. Any duplicate click results in a loss.
 
 #### This project was bootstrapped with Create React App, so it requires npm/yarn.
 
