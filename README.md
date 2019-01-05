@@ -1,6 +1,6 @@
 # Clicky Game
 
-### This is a simple but addictive (and serverless) memory game built using React.
+### Simple but addictive (and serverless) memory game built using React.
 
 #### This project was bootstrapped with Create React App, so it requires npm/yarn.
 
