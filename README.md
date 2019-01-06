@@ -1,22 +1,5 @@
 # Clicky Game
 
-### Simple but addictive (and serverless) memory game built using React. The player must click each photo only once per round. Any duplicate click results in a loss.
+### Simple but addictive (and serverless) memory game built using React. The player must click each puppy photo only once per round. Any duplicate click results in a loss.
 
-#### This project was bootstrapped with Create React App, so it requires npm/yarn.
-
-### To use this application:
-
-* #### Clone this repo to your local machine:
-```
-git clone git@github.com:mollyjz/clicky.git
-```
-
-* #### Open the repo and execute the following in the bash terminal. Doing so should install the required packages/dependencies:
-```
-yarn install
-```
-
-* #### Ready to play on your local machine? Try:
-```
-yarn start
-```
+Deployed at https://clicky-dog.herokuapp.com/.
